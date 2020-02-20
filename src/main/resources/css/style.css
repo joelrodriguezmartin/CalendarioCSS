@@ -1,0 +1,13 @@
+.root{
+	-fx-font-family: courier-new;
+	-fx-font-size: 11pt;
+	-fx-background-color: white;
+}
+#year{
+	-fx-font-family: arial;
+	-fx-font-weight: bold;
+	-fx-font-size: 22pt;
+}
+#changeButton:hover{
+	-fx-effect:dropshadow(gaussian, grey, 2, 2, 2, 2);
+}
