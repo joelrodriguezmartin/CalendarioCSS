@@ -5,7 +5,8 @@ import java.net.URL;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
 
-import dad.javafx.componentes.MonthCalendar;
+
+import dad.javafx.componentes.MonthCalendar2;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.event.ActionEvent;
@@ -31,40 +32,40 @@ public class Controller implements Initializable{
 	    private Button nextYearButton;
 
 	    @FXML
-	    private MonthCalendar c1;
+	    private MonthCalendar2 c1;
 
 	    @FXML
-	    private MonthCalendar c2;
+	    private MonthCalendar2 c2;
 
 	    @FXML
-	    private MonthCalendar c3;
+	    private MonthCalendar2 c3;
 
 	    @FXML
-	    private MonthCalendar c4;
+	    private MonthCalendar2 c4;
 
 	    @FXML
-	    private MonthCalendar c5;
+	    private MonthCalendar2 c5;
 
 	    @FXML
-	    private MonthCalendar c6;
+	    private MonthCalendar2 c6;
 
 	    @FXML
-	    private MonthCalendar c7;
+	    private MonthCalendar2 c7;
 
 	    @FXML
-	    private MonthCalendar c8;
+	    private MonthCalendar2 c8;
 
 	    @FXML
-	    private MonthCalendar c9;
+	    private MonthCalendar2 c9;
 
 	    @FXML
-	    private MonthCalendar c10;
+	    private MonthCalendar2 c10;
 
 	    @FXML
-	    private MonthCalendar c11;
+	    private MonthCalendar2 c11;
 
 	    @FXML
-	    private MonthCalendar c12;
+	    private MonthCalendar2 c12;
 
 	    //model
 	    private IntegerProperty yearProperty = new SimpleIntegerProperty();

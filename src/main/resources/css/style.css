@@ -5,8 +5,10 @@
 }
 #year{
 	-fx-font-family: arial;
+	-fx-text-fill: white;
 	-fx-font-weight: bold;
 	-fx-font-size: 22pt;
+	-fx-effect:dropshadow(gaussian, black, 2, 2, 2, 2);
 }
 #changeButton:hover{
 	-fx-effect:dropshadow(gaussian, grey, 2, 2, 2, 2);
